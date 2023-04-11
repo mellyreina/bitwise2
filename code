@@ -1,0 +1,18 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{ 
+// a nın 4. bitini 0 yapan kod
+   unsigned int a=158, b;
+   
+   b= a& ~ (1<<4);
+   printf("%d \n",b);
+   
+   
+   
+	getch();
+	return 0;
+}
